@@ -16,7 +16,7 @@ PHASE 1 Discussion:
 PHASE 2: Outlier Removal + Parameter Tunings
 - Extreme values were removed using quantile-based filtering (1st–99th percentile).
 - Models were retrained and tuned again.
-- Outlier filtering eliminated 427 rows, representing 3.2% of the data, to minimize noise and enhance the model’s ability to generalize.
+- Outlier filtering from all numeric columns eliminated 427 rows, representing 3.2% of the data, to minimize noise and enhance the model’s ability to generalize.
 
 Results from PHASE 2:
 - Linear Regression (LR) : Train 80% of data score: 0.720 || Test 20% of data score: 0.633
