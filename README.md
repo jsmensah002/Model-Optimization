@@ -29,4 +29,4 @@ Key Insight
 - SVR emerged as the most reliable model, showing the best balance between training and test performance after outlier removal and parameter tuning. While Random Forest achieved high training scores, it continued to overfit, and Linear Regression improved but still lagged slightly in generalization. 
 - Outlier removal helped boost model stability and accuracy, but this step should only be performed with company's approval, as outliers may represent legitimate market variations.
 - Overall, combining careful data cleaning, outlier management, and hyperparameter tuning led to a more robust and generalizable predictive model.
-- There may be additional, more effective strategies to further enhance model performance that are yet to be explored. For example creating new features or transforming existing ones can give the model more signal and improve performance.
+- There may be additional, more effective strategies to further enhance model performance that are yet to be explored. For example, creating new features or transforming existing ones can give the model more signal and improve performance.
