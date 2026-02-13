@@ -26,7 +26,7 @@ Results from PHASE 2:
 PHASE 2 Discussion:
 - The primary objective of Phase 2 was to reduce overfitting in the Random Forest Regressor (RFR). However, despite outlier removal and parameter tunings, RFR continued to exhibit clear overfitting (train-test gap of 0.178). Interestingly, the parameter tunings and outlier treatment significantly improved the performance of both Linear Regression (LR) and Support Vector Regression (SVR). Although both Linear Regression and Support Vector Regression showed mild overfitting, SVR demonstrated stronger generalization based on the train–test performance gap. Linear Regression had a train–test gap of 0.087, while SVR showed a smaller gap of 0.053, indicating more stable and reliable performance on unseen data. As a result, SVR emerged as the more suitable model for this dataset.
 
-Key Insight
+Key Insights:
 - SVR emerged as the most reliable model, showing the best balance between training and test performance after outlier removal and parameter tuning. While Random Forest achieved high training scores, it continued to overfit, and Linear Regression improved but still lagged slightly in generalization. 
 - Outlier removal helped boost model stability and accuracy, but this step should only be performed with company's approval, as outliers may represent legitimate market variations.
 - Overall, combining careful data cleaning, outlier management, and hyperparameter tuning led to a more robust and generalizable predictive model.
